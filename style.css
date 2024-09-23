@@ -1,0 +1,474 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #FFFFFF;
+  color: #303030;
+  font-size: 16px;
+  line-height: 20px;
+
+  margin: 0;
+}
+
+.page-header {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 35px 90px;
+  margin-bottom: 15px;
+}
+
+.main-nav {
+  display: flex;
+}
+
+.logo {
+  width: 197px;
+  margin-right: 60px;
+}
+
+.site-navigation {
+  width: 270px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.site-navigation-item a {
+  color: #9A9A9A;
+  text-decoration: none;
+}
+
+.search {
+  width: 20px;
+  margin-left: auto;
+}
+
+.hero h1 {
+  font-size: 45px;
+  line-height: 55px;
+}
+
+.quote p {
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.quote footer {
+  font-weight: 700;
+  text-align: center;
+}
+
+.fact-article h2 {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 55px;
+  color: #A4C58C;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 10px;
+  text-underline-position: under;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.fact-article h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.fact-article p {
+  line-height: 30px;
+  color: #000000;
+}
+
+.symptoms h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  margin-top: 65px;
+  margin-bottom: 90px;
+}
+
+.symptoms-item {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.cta-button {
+  border: 20px solid #7EB252;
+  background-color: #7EB252;
+  color: #FFF;
+  font-size: 14px;
+  font-family: Montserrat;
+  text-decoration: none;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+}
+
+.arrow {
+  margin-left: 18px;
+}
+
+.symptoms-item:last-child {
+  margin-bottom: 70px;
+}
+
+.gallery h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  margin-top: 0;
+  margin-bottom: 90px;
+}
+
+.page-footer {
+  background-color: #F6F9F3;
+  margin-top: 110px;
+  padding: 90px 0;
+}
+
+.footer-link {
+  font-size: 12px;
+  line-height: 16px;
+  text-decoration-line: underline;
+  color: #9A9A9A;
+}
+
+.footer-navigation-title {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.footer-menu-item a {
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.main-content {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 0 90px;
+}
+
+.hero {
+  margin-bottom: 110px;
+}
+
+.hero h1 {
+  margin-top: 0;
+  margin-left: 30px;
+  margin-bottom: 35px;
+}
+
+.quote {
+  width: 700px;
+  margin: 0 auto;
+  margin-bottom: 110px;
+}
+
+.quote {
+  padding: 45px 0;
+}
+
+.quote blockquote {
+  margin: 0;
+}
+
+.fact-article {
+  width: 1020px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  
+  }
+
+.fact-article-1 {
+  margin-bottom: 60px;
+  flex-direction: row-reverse;
+}
+
+.fact-article-2 {
+  margin-bottom: 110px;
+}
+
+.fact-article-img {
+  width: 420px;
+}
+
+.fact-article-content {
+  width: 560px;
+}
+
+.symptoms {
+  margin-bottom: 110px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.symptoms-column {
+  width: 500px;
+}
+
+.symptoms-img {
+  width: 500px;
+}
+
+.gallery {
+  width: 930px;
+  margin: 0 auto;
+}
+
+.gallery-wrapper {
+  display: flex;
+}
+
+.active-img {
+  width: 740px;
+  margin-right: 20px;
+}
+
+.gallery-preview {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 170px;
+}
+
+.preview-item {
+  margin-bottom: 20px;
+}
+
+.preview-item:last-child {
+  margin-bottom: 0;
+}
+
+.footer-container {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 0 90px;
+  display: flex;
+}
+
+.footer-navigation {
+  width: 705px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-column {
+  width: 210px;
+  margin-right: 185px;
+}
+
+.footer-navigation-item {
+  width: 175px;
+}
+
+.line-container {
+  width: 60%;
+  height: 2px;
+  margin: 0 auto;
+  margin-top: -34px;
+  margin-bottom: 16px;
+  border-bottom: 3px solid #A4C58C;
+}
+
+.line-container-1 {
+  width: 700px;
+  height: 2px;
+  margin: 0 auto;
+  margin-top: 110px;
+  border-top: 3px solid #A4C58C;
+}
+
+.line-container-2 {
+  width: 700px;
+  height: 2px;
+  margin: 0 auto;
+  margin-bottom: 110px;
+  border-top: 3px solid #A4C58C;
+}
+
+footer {
+  margin-bottom: -105px;
+}
+
+.symptoms-list {
+  line-height: 45px;
+}
+
+@media screen and (max-width: 900px) {
+  .main-nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .search {
+    width: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero h1 {
+    font-size: 20px;
+  }
+  
+  .quote p {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    margin-left: -200px;
+  }
+
+  .quote footer {
+    font-weight: 500;
+    text-align: left;
+  }
+
+  .fact-article h2 {
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 35px;
+  }
+
+  .fact-article h3 {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 25px;
+  }
+
+  .fact-article p {
+    line-height: 18px;
+    color: #000000;
+  }
+
+  .symptoms h2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 45px;
+    margin-bottom: 70px;
+  }
+
+  .cta-button {
+    border: 10px solid #7EB252;
+    background-color: #7EB252;
+    color: #FFF;
+    font-size: 10px;
+    font-family: Montserrat;
+    text-decoration: none;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+  }
+
+  .gallery h2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .main-content {
+    width: 880px;
+    margin: 0 auto;
+    padding: 0 90px;
+  }
+
+  .quote {
+    width: 500px;
+}
+
+.fact-article-img {
+  width: 300px;
+  flex-direction: column-reverse;
+}
+
+.fact-article-1 {
+  margin-bottom: 60px;
+  flex-direction: column;
+}
+
+.fact-article-content {
+  width: 450px;
+}
+
+.symptoms {
+  margin-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.symptoms-column {
+  width: 500px;
+}
+
+.symptoms-img {
+  width: 300px;
+}
+
+.gallery {
+  width: 630px;
+}
+
+.active-img {
+  width: 340px;
+}
+
+.preview-item {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.line-container {
+  width: 30%;
+  height: 2px;
+  margin: 0 auto;
+  margin-top: -34px;
+  margin-bottom: 16px;
+  border-bottom: 3px solid #A4C58C;
+}
+
+.line-container-1 {
+  width: 500px;
+  height: 2px;
+  margin-left: 200px;
+  margin-top: 90px;
+  border-top: 3px solid #A4C58C;
+}
+
+.line-container-2 {
+  width: 300px;
+  height: 2px;
+  margin-left: 200px;
+  margin-top: 90px;
+  border-top: 3px solid #A4C58C;
+}
+
+.footer-column {
+  width: 110px;
+  margin-right: 95px;
+}
+
+.footer-container {
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-menu-item {
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+}
